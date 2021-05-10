@@ -13,6 +13,11 @@ body {
     list-style-type: none;
 }
 
+.nav-container {
+    position: fixed;
+    top: 0;
+}
+
 .nav-item {
     position: relative;
     left: 1450px;
@@ -21,6 +26,10 @@ body {
     font: normal normal bold 30px/30px Segoe UI;
     cursor: pointer;
     float: center;
+}
+
+.nav-item:hover {
+    background-color: black;
 }
 
 .nav-item a {
