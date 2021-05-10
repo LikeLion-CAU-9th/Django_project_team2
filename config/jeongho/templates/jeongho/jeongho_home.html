@@ -1,12 +1,23 @@
 <!DOCTYPE html>
+
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/jeongho/jeongho_home.css' %}">
     <title>Document</title>
 </head>
 <body>
-    hello world!!
+    <h1>네비게이션 바</h1>
+    <nav>
+        <ul class="nav-container">
+            <li class="nav-name"> <a href="">CODING GAME</a> </li>
+            <li class="nav-item"> <a href="">1</a> </li>
+            <li class="nav-item"> <a href="">2</a> </li>
+            <li class="nav-item"> <a href="">3</a> </li>
+        </ul>    
+    </nav>
 </body>
 </html>
