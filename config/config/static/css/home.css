@@ -1,0 +1,133 @@
+body {
+    height: 100%;
+    width:100%;
+    background-image: url("../img/home_img.png");
+}
+
+
+#header-container{
+    height:10%;
+    width:100%;
+    margin-top:4%;
+    padding-bottom:2%;
+}
+
+#header-container h1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 73px;
+    color: rgba(255,255,255,0.7);
+    opacity: 0.5;
+    text-shadow: 4px 9px 6px #A20000C9;
+    text-align:center;
+    opacity: 1;
+    overflow: hidden; 
+    border-right: .1em solid #A20000C9; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .1em; 
+    animation: 
+      typing 3.5s steps(15, end),
+      blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 75% }
+}
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #A20000C9; }
+}
+
+#Door{
+    width:100%;
+    height:90%;
+}
+
+.door_1 {
+    width:30%;
+    padding-left: 7%;
+    float:left;
+}
+
+.door_1 img{
+    width:80%;
+}
+
+.door_1 img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+  
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+.door_2 {
+    width:30%;
+    margin:center;
+    float:left;
+}
+
+.door_2 img{
+    width:80%;
+}
+
+.door_2 img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.door_3 {
+    width:30%;
+    float:left;
+}
+
+.door_3 img{
+    width:80%;
+}
+
+.door_3 img:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+  
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}

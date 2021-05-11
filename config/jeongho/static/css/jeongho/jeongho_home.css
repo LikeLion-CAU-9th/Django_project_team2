@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: 'Goblin One', cursive;
+}
+
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(96, 96, 96, 0.7);
+    list-style-type: none;
+    box-shadow: 4px 6px 6px 6px rgba(0, 0, 0, 0.8);
+}
+
+.nav-container {
+    position: fixed;
+    top: 0;
+}
+
+.nav-item {
+    position: relative;
+    left: 1750px;
+    padding: 20px;
+    width: 50px;
+    font: normal normal bold 30px/30px Segoe UI;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: black;
+}
+
+.nav-item a {
+    text-align: center;
+    text-decoration: none;
+    color: #930001;
+    width: 50px;
+    padding: 4px 15px;
+    height: 50px;
+    border: solid 4px #930001;
+}
+
+.nav-name {
+    padding: 20px;
+    font: normal normal bold 30px/30px Segoe UI;
+    letter-spacing: 0px;
+    color: #930001;
+    opacity: 1;
+}
+
+.nav-item > ul {
+    display: none;
+    border: 0;
+}
+
+.nav-item > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: -10px;
+    top: 70px;
+    width: 130px;
+    text-align: center; 
+    background-color: rgba(96, 96, 96, 0.7);
+}
+
+.nav-item ul a {
+    border: none;
+}
+
+.nav-item:hover ul {
+    display: block;
+}
+
+.nav-item ul li {
+    padding: 10px 5px;
+    font: normal normal bold 25px/25px Segoe UI;    
+}
