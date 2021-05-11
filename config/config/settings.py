@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'config',
     'jeongho',
     'junho',
+    'minji',
 ]
 
 MIDDLEWARE = [
@@ -132,6 +133,7 @@ STATICFILES_DRIS = [
     os.path.join(BASE_DIR, 'config', 'static'),
     os.path.join(BASE_DIR, 'jeongho', 'static'),
     os.path.join(BASE_DIR, 'junho', 'static'),
+    os.path.join(BASE_DIR, 'minji', 'static'),
 ]
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')

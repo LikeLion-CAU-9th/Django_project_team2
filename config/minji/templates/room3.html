@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>세 번째 방</title>
+
+    <link rel="stylesheet" href="{% static 'css/room.css' %}" >
+    <link rel="stylesheet" href="{% static 'css/jeongho/jeongho_home.css' %}" >
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-container">
+                <li class="nav-name"> <a href="{% url 'home' %}">CODING GAME </a> </li>
+                <li class="nav-item"> <a href="#"> 1 </a> 
+                    <ul> 
+                        <li> <a href="{% url 'room1' %}"> Room </a> </li>
+                        <li> <a href="https://www.instagram.com/tarakkyu/?hl=ko"> SNS </a> </li>
+                    </ul>
+                </li>
+                <li class="nav-item"> <a href="#"> 2 </a>
+                    <ul> 
+                        <li> <a href="{% url 'room2' %}"> Room </a> </li>
+                        <li> <a href="https://www.instagram.com/jeongxo/?hl=ko"> SNS </a> </li>
+                    </ul>    
+                </li>                   
+                <li class="nav-item"> <a href="#"> 3 </a>
+                    <ul> 
+                        <li> <a href="{% url 'room3' %}"> Room </a> </li>
+                        <li> <a href="https://www.instagram.com/tangza_0/?hl=ko"> SNS </a> </li>
+                    </ul>
+                </li>    
+            </ul>    
+        </nav>
+    </header> 
+
+    <div class="background room3">
+        <div class="contents">
+            <div class="msgbox player">
+                3번 김민G
+            </div>
+            <div class="msgbox quote">
+                "최대한, 저의 목표는 Zonbur"
+            </div>
+            <div class="msgbox character">
+                MBTI : ENTP
+            </div>
+            <div class="msgbox character">
+                코딩 경력 : 5 weeks    
+            </div>
+            <div class="msgbox character" style="line-height: 2em;">
+                포지션 : 코드 긁어er. 
+                <p style="font-size: 2.1vh; line-height: 1em; margin-top: 0;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;하란대로 했는데 안 돼..</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

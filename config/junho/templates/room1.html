@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>첫 번째 방</title>
+
+    <link rel="stylesheet" href="{% static 'css/room.css' %}" >
+    <link rel="stylesheet" href="{% static 'css/jeongho/jeongho_home.css' %}" >
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-container">
+                <li class="nav-name"> <a href="{% url 'home' %}">CODING GAME </a> </li>
+                <li class="nav-item"> <a href="#"> 1 </a> 
+                    <ul> 
+                        <li> <a href="{% url 'room1' %}"> Profile </a> </li>
+                        <li> <a href="https://www.instagram.com/tarakkyu/?hl=ko"> SNS </a> </li>
+                    </ul>
+                </li>
+                <li class="nav-item"> <a href="#"> 2 </a>
+                    <ul> 
+                        <li> <a href="{% url 'room2' %}"> Profile </a> </li>
+                        <li> <a href="https://www.instagram.com/jeongxo/?hl=ko"> SNS </a> </li>
+                    </ul>    
+                </li>                   
+                <li class="nav-item"> <a href="#"> 3 </a>
+                    <ul> 
+                        <li> <a href="{% url 'room3' %}"> Profile </a> </li>
+                        <li> <a href="https://www.instagram.com/tangza_0/?hl=ko"> SNS </a> </li>
+                    </ul>
+                </li>    
+            </ul>    
+        </nav>
+    </header> 
+
+    <div class="background room1">
+        <div class="contents">
+            <div class="msgbox player">
+                1번 송준Ho~
+            </div>
+            <div class="msgbox quote">
+                "마음의 준비 안 됐어"
+            </div>
+            <div class="msgbox character">
+                MBTI : INFP
+            </div>
+            <div class="msgbox character">
+                포지션 : 심약자 (*놀래키지 마세요ㅠ)
+            </div>
+            <div class="msgbox character">
+                특기 : 간호 (아프면 "호~")
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
