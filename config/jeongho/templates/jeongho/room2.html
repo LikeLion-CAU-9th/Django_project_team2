@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>두 번째 방 </title>
+    <title>두 번째 방</title>
 
     <link rel="stylesheet" href="{% static 'css/room.css' %}" >
     <link rel="stylesheet" href="{% static 'css/jeongho/jeongho_home.css' %}" >
@@ -20,23 +20,23 @@
     <header>
         <nav>
             <ul class="nav-container">
-                <li class="nav-name"> <a href="{% url 'home' %}">CODING GAME </a></li>
+                <li class="nav-name"> <a href="{% url 'home' %}">CODING GAME </a> </li>
                 <li class="nav-item"> <a href="#"> 1 </a> 
                     <ul> 
-                        <li> <a href="#"> Room </a> </li>
-                        <li> <a href="#"> SNS </a> </li>
+                        <li> <a href="{% url 'room1' %}"> Profile </a> </li>
+                        <li> <a href="https://www.instagram.com/tarakkyu/?hl=ko"> SNS </a> </li>
                     </ul>
                 </li>
                 <li class="nav-item"> <a href="#"> 2 </a>
                     <ul> 
-                        <li> <a href="#"> Room </a> </li>
+                        <li> <a href="{% url 'room2' %}"> Profile </a> </li>
                         <li> <a href="https://www.instagram.com/jeongxo/?hl=ko"> SNS </a> </li>
                     </ul>    
                 </li>                   
                 <li class="nav-item"> <a href="#"> 3 </a>
                     <ul> 
-                        <li> <a href="#"> Room </a> </li>
-                        <li> <a href="#"> SNS </a> </li>
+                        <li> <a href="{% url 'room3' %}"> Profile </a> </li>
+                        <li> <a href="https://www.instagram.com/tangza_0/?hl=ko"> SNS </a> </li>
                     </ul>
                 </li>    
             </ul>    

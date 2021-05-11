@@ -24,6 +24,11 @@ nav {
     opacity: 1;
 }
 
+.nav-name > a {
+    text-decoration: none;
+    color: #930001;
+}
+
 
 .nav-item {
     position: relative;
@@ -43,9 +48,8 @@ nav {
     text-align: center;
     text-decoration: none;
     color: #930001;
-    width: 500px;
     padding: 4px 21px;
-    height: 70px;
+    height: 40px;
     border: solid 4px #930001;
 }
 
@@ -60,7 +64,7 @@ nav {
     margin: 0;
     padding: 0;
     position: absolute;
-    left: 0px;
+    left: 3px;
     top: 80px;
     width: 130px;
     text-align: center; 
@@ -70,7 +74,7 @@ nav {
 .nav-item ul a {
     border: none;
     text-align: center;
-    padding: 0px 20x 0px 2px;
+    display:block;
 }
 
 .nav-item:hover ul {

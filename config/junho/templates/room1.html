@@ -20,23 +20,23 @@
     <header>
         <nav>
             <ul class="nav-container">
-                <li class="nav-name">  CODING GAME </li>
+                <li class="nav-name"> <a href="{% url 'home' %}">CODING GAME </a> </li>
                 <li class="nav-item"> <a href="#"> 1 </a> 
                     <ul> 
-                        <li> <a href="#"> Room </a> </li>
-                        <li> <a href="#"> SNS </a> </li>
+                        <li> <a href="{% url 'room1' %}"> Profile </a> </li>
+                        <li> <a href="https://www.instagram.com/tarakkyu/?hl=ko"> SNS </a> </li>
                     </ul>
                 </li>
                 <li class="nav-item"> <a href="#"> 2 </a>
                     <ul> 
-                        <li> <a href="#"> Room </a> </li>
+                        <li> <a href="{% url 'room2' %}"> Profile </a> </li>
                         <li> <a href="https://www.instagram.com/jeongxo/?hl=ko"> SNS </a> </li>
                     </ul>    
                 </li>                   
                 <li class="nav-item"> <a href="#"> 3 </a>
                     <ul> 
-                        <li> <a href="#"> Room </a> </li>
-                        <li> <a href="#"> SNS </a> </li>
+                        <li> <a href="{% url 'room3' %}"> Profile </a> </li>
+                        <li> <a href="https://www.instagram.com/tangza_0/?hl=ko"> SNS </a> </li>
                     </ul>
                 </li>    
             </ul>    
