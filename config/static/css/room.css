@@ -1,0 +1,60 @@
+
+header, div {box-sizing: border-box;}
+
+header {
+    background-color: aqua;
+    height: 101px;
+    margin:0px;
+    padding:30px;
+    z-index: 2;
+    opacity: 50%;
+}
+
+.background {
+    position:absolute;
+    flex:1;
+    background-repeat:repeat;
+    height:100%;
+    width:100%;
+    z-index: 1;
+}
+
+body, h1 {margin:0px;}
+
+body{   
+    display:flex;
+    flex-direction: column;
+}
+
+html, body {height:100%;}
+
+.contents {
+    position: relative;
+    top:162px;
+    left:96px;
+}
+
+.msgbox {
+    color: white;
+    background-color: #FF00004D;
+    width: 587px;
+}
+
+.player {
+    height: 67px;
+}
+
+.quote {
+    margin-top: 12px;
+    margin-bottom: 62px;
+    height: 44px;
+}
+
+.character {
+    margin-bottom: 12px;
+    height: 98px;
+}
+
+p {
+    opacity: 100%;
+}
