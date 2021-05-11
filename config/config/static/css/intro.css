@@ -1,3 +1,8 @@
+body{
+    width:100%;
+    height:100%;
+}
+
 video#bgvid{
     position:fixed;
     right:0;
@@ -8,4 +13,103 @@ video#bgvid{
     height:auto;
     z-index:-100;
     background-size:cover;
+}
+
+@keyframes test {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+div#blackContainer{
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:0;
+    background-color:rgb(2,20,18);
+
+    animation-name: test;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 11s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+div#backContainer{
+    position:fixed;
+    right:0;
+    bottom:0;
+    width:100%;
+    height:100%;
+    z-index:1;
+    background-size:cover;
+
+
+    animation-name: test;
+    animation-duration: 0s;
+    animation-timing-function: linear;
+    animation-delay: 12s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+div#textContainer {
+    position: relative;
+    text-align:center;
+    font-family: 'Reggae One', cursive;
+    color:rgba(255,255,255,0.7);
+    font-size:50px;
+    padding-top:15%;
+    z-index: 5;
+
+    animation-name: test;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 13s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+
+#textContainer p{
+    font-size: 70px;
+}
+
+#textContainer p span{
+    font-size: 28px;
+}
+
+
+button[type=confirm]{
+    position: relative;
+    border: none;
+    outline: none;
+    background-color:#720000c9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    height: 60px;
+    width: 330px;
+    cursor: pointer;
+    z-index:100;
+
+
+    animation-name: test;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 13s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-play-state: running;
 }
