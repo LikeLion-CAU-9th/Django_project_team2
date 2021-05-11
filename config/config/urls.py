@@ -11,4 +11,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('jeongho/', include('jeongho.urls')),
     path('junho/', include('junho.urls')),
+    path('minji/', include('minji.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -1,5 +1,9 @@
 body, h1 {margin:0px;}
 
+header {
+    z-index: 3;
+}
+
 body{   
     display:flex;
     flex-direction: column;
@@ -10,26 +14,19 @@ html, body {
     width:100%;
 }
 
-header, div {box-sizing: border-box;}
+div {box-sizing: border-box;}
 
-header {
-    background-color: aqua;
-    width: 100%;
-    height: 101px;
-    margin:0px;
-    padding:30px;
-    z-index: 2;
-    opacity: 40%;
-}
+
 
 .background {
     position:absolute;
     flex:1;
-    background-repeat:repeat;
+    background-repeat:no-repeat;
     height:100%;
     width:100%;
     z-index: 1;
     background-size:100%;
+    font-family: 'Reggae One', cursive;
 }
 
 .room1 {background-image: url("../img/1번방.png");
@@ -44,31 +41,31 @@ header {
 
 .contents {
     position: relative;
-    top:162px;
-    left:96px;
+    top:21.9375%;
+    left:7.02%;
+    width:92.98%;
 }
 
 .msgbox {
     color: white;
-    background-color: #FF00004D;
-    width: 587px;
+    width: 42.9722%;
 }
 
 .player {
-    height: 67px;
+    font-size: 6.51vh;
 }
 
 .quote {
-    margin-top: 12px;
-    margin-bottom: 62px;
-    height: 44px;
+    margin-top: 1.5625%;
+    margin-bottom: 4.029%;
+    font-size: 4.34vh;
 }
 
 .character {
-    margin-bottom: 12px;
-    height: 98px;
-}
-
-p {
-    opacity: 100%;
+    background-color: #FF00004D;
+    margin-bottom: 1%;
+    height: 3em;
+    font-size: 3.8vh;
+    line-height: 3em;
+    padding-left: 1em;
 }
