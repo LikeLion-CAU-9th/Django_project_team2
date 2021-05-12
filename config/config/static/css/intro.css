@@ -113,3 +113,8 @@ button[type=confirm]{
     animation-fill-mode: backwards;
     animation-play-state: running;
 }
+
+button a {
+    color: white;
+    text-decoration: none;
+}
